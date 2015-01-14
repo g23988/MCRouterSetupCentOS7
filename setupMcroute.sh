@@ -95,3 +95,4 @@ autoreconf --install
 ./configure
 make && make install
 
+mkdir /var/spool/mcrouter
