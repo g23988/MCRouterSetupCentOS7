@@ -54,6 +54,7 @@ make -j4
 make install
 
 tar -zxvf mcrouter.tar.gz
+autoreconf --install
 ./configure
 make -j4
 make install
