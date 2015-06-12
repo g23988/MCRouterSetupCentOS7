@@ -68,6 +68,15 @@ Install libpcap-1.7.3.tar.gz (need by folly)
 # make install
 ```
 
+Install zlib-1.2.8.tar.gz
+```
+# tar -xvf zlib-1.2.8.tar.gz
+# cd zlib-1.2.8
+# ./configure
+# make -j4
+# make install
+```
+
 If u dont have openssl...(need by folly)
 ```
 # tar -zxvf openssl-1.0.2-latest.tar.gz
