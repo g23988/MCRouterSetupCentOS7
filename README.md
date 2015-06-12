@@ -112,6 +112,7 @@ Install ragel if u dont have (need by mcrouter)
 
 Finally, MCRouter!!
 ```
+# cp ./capability.h /usr/include/sys/
 # ln -s /usr/lib64/libcap.so.2 /usr/lib64/libcap.so
 # tar -zxvf mcrouter.tar.gz
 # cd mcrouter
