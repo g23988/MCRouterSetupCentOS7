@@ -86,7 +86,7 @@ Install double-conversion.tar.gz (need by folly)
 # cd double-conversion
 # cmake -DBUILD_SHARED_LIBS=true .
 # make -j4
-# make intall
+# make install
 # ldconfig -v
 ```
 
