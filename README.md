@@ -73,6 +73,8 @@ If u dont have openssl...(need by folly)
 # tar -zxvf openssl-1.0.2-latest.tar.gz
 # cd openssl-1.0.2a
 # ./config --prefix=/usr --openssldir=/etc/ssl --libdir=lib shared
+# make -j4
+# make install
 # vi /etc/ld.so.conf
 /usr/local/ssl/lib
 # ldconfig -v
