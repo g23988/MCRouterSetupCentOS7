@@ -70,8 +70,8 @@ Install libpcap-1.7.3.tar.gz (need by folly)
 
 If u dont have openssl...(need by folly)
 ```
-# tar openssl-1.0.2-latest.tar.gz
-# cd openssl-1.0.2-latest
+# tar -zxvf openssl-1.0.2-latest.tar.gz
+# cd openssl-1.0.2a
 # ./config --prefix=/usr --openssldir=/etc/ssl --libdir=lib shared
 # vi /etc/ld.so.conf
 /usr/local/ssl/lib
